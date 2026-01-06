@@ -82,7 +82,27 @@
       "regNumber": "TS 08 UB 5678",
       "city": "Hyderabad",
       "status": "verified",
-      "rideHistory": []
+      "rideHistory": [ {
+          "time": "02:15 PM",
+          "bookingId": "BK-2023-009",
+          "customer": "John Doe",
+          "pickup": "Gachibowli",
+          "droppedLocation": "Airport",
+          "timeTaken": "50 mins",
+          "distance": "28 km",
+          "fare": "₹800"
+        },
+        {
+          "time": "02:30 PM",
+          "bookingId": "BK-2023-009",
+          "customer": "RaviTeja ",
+          "pickup": "secundrabad",
+          "droppedLocation": "siddipet",
+          "timeTaken": "2hr ",
+          "distance": "49 km",
+          "fare": "₹999"
+          
+      ]
     },
     {
       "driverid": 103,
