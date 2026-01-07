@@ -42,8 +42,10 @@
   },
   "drivers": [
     {
-      "driverid": 101,
+      "id": 101,
       "driverName": "Ramesh Kumar",
+      "firstName": "Ramesh",
+      "lastName": "Kumar",
       "phone": "9876543210",
       "email": "ramesh.k@example.com",
       "vehicleType": "Sedan",
@@ -60,53 +62,27 @@
           "timeTaken": "45 mins",
           "distance": "12 km",
           "fare": "₹350"
-        },
-        {
-          "time": "02:15 PM",
-          "bookingId": "BK-2023-009",
-          "customer": "John Doe",
-          "pickup": "Gachibowli",
-          "droppedLocation": "Airport",
-          "timeTaken": "50 mins",
-          "distance": "28 km",
-          "fare": "₹800"
         }
       ]
     },
     {
-      "driverid": 102,
+      "id": 102,
       "driverName": "Suresh Reddy",
+      "firstName": "Suresh",
+      "lastName": "Reddy",
       "phone": "8765432109",
       "email": "suresh.r@example.com",
       "vehicleType": "SUV",
       "regNumber": "TS 08 UB 5678",
       "city": "Hyderabad",
       "status": "verified",
-      "rideHistory": [ {
-          "time": "02:15 PM",
-          "bookingId": "BK-2023-009",
-          "customer": "John Doe",
-          "pickup": "Gachibowli",
-          "droppedLocation": "Airport",
-          "timeTaken": "50 mins",
-          "distance": "28 km",
-          "fare": "₹800"
-        },
-        {
-          "time": "02:30 PM",
-          "bookingId": "BK-2023-009",
-          "customer": "RaviTeja ",
-          "pickup": "secundrabad",
-          "droppedLocation": "siddipet",
-          "timeTaken": "2hr ",
-          "distance": "49 km",
-          "fare": "₹999" }
-          
-      ]
+      "rideHistory": []
     },
     {
-      "driverid": 103,
+      "id": 103,
       "driverName": "Mallesh Yadav",
+      "firstName": "Mallesh",
+      "lastName": "Yadav",
       "phone": "9988776655",
       "email": "mallesh.y@example.com",
       "vehicleType": "Auto",
@@ -125,6 +101,60 @@
           "fare": "₹120"
         }
       ]
+    },
+    {
+      "id": 901,
+      "firstName": "Vikram",
+      "lastName": "Singh",
+      "driverName": "Vikram Singh",
+      "email": "vikram.singh@example.com",
+      "phone": "9988770011",
+      "gender": "Male",
+      "city": "Hyderabad",
+      "district": "Ranga Reddy",
+      "state": "Telangana",
+      "pinCode": "500032",
+      "houseNo": "12-3/4",
+      "street": "Gachibowli Main Rd",
+      "status": "pending",
+      "submittedAt": "2023-10-26",
+      "vehicleType": "Bike",
+      "regNumber": "TS 07 GP 9988",
+      "selfie": "https://randomuser.me/api/portraits/men/32.jpg",
+      "vehicleImage": "https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=500&q=60",
+      "dlFront": "https://upload.wikimedia.org/wikipedia/commons/9/9b/Driving_license_India_smart_card.png",
+      "dlBack": "https://upload.wikimedia.org/wikipedia/commons/9/9b/Driving_license_India_smart_card.png",
+      "aadharFront": "https://assets.telegraphindia.com/telegraph/2022/Aug/1660990397_new-project.jpg",
+      "aadharBack": "https://assets.telegraphindia.com/telegraph/2022/Aug/1660990397_new-project.jpg",
+      "panFront": "https://enterslice.com/learning/wp-content/uploads/2018/06/PAN-Card-Correction.jpg",
+      "panBack": "https://enterslice.com/learning/wp-content/uploads/2018/06/PAN-Card-Correction.jpg"
+    },
+    {
+      "id": 902,
+      "firstName": "Anjali",
+      "lastName": "Devi",
+      "driverName": "Anjali Devi",
+      "email": "anjali.d@example.com",
+      "phone": "7766554433",
+      "gender": "Female",
+      "city": "Secunderabad",
+      "district": "Hyderabad",
+      "state": "Telangana",
+      "pinCode": "500003",
+      "houseNo": "45-A",
+      "street": "MG Road",
+      "status": "pending",
+      "submittedAt": "2023-10-27",
+      "vehicleType": "Auto",
+      "regNumber": "TS 10 AB 1122",
+      "selfie": "https://randomuser.me/api/portraits/women/44.jpg",
+      "vehicleImage": "https://images.unsplash.com/photo-1532509854226-a2d9d8e66f8e?auto=format&fit=crop&w=500&q=60",
+      "dlFront": "https://upload.wikimedia.org/wikipedia/commons/9/9b/Driving_license_India_smart_card.png",
+      "dlBack": "https://upload.wikimedia.org/wikipedia/commons/9/9b/Driving_license_India_smart_card.png",
+      "aadharFront": "https://assets.telegraphindia.com/telegraph/2022/Aug/1660990397_new-project.jpg",
+      "aadharBack": "https://assets.telegraphindia.com/telegraph/2022/Aug/1660990397_new-project.jpg",
+      "panFront": "https://enterslice.com/learning/wp-content/uploads/2018/06/PAN-Card-Correction.jpg",
+      "panBack": "https://enterslice.com/learning/wp-content/uploads/2018/06/PAN-Card-Correction.jpg"
     }
   ],
   "consumers": [
