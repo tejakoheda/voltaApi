@@ -43,57 +43,118 @@
   "drivers": [
     {
       "id": 101,
+      "driverName": "Ramesh Kumar",
       "firstName": "Ramesh",
       "lastName": "Kumar",
-      "driverName": "Ramesh Kumar",
       "phone": "9876543210",
       "email": "ramesh.k@example.com",
       "vehicleType": "Sedan",
       "regNumber": "TS 09 UA 1234",
       "city": "Hyderabad",
       "status": "verified",
-      "submittedAt": "2023-10-20",
-      "rideHistory": []
+      "rideHistory": [
+        {
+          "time": "10:30 AM",
+          "bookingId": "BK-2023-001",
+          "customer": "Sita Ram",
+          "pickup": "Hitech City",
+          "droppedLocation": "Jubilee Hills",
+          "timeTaken": "45 mins",
+          "distance": "12 km",
+          "fare": "₹350"
+        }
+      ]
     },
     {
       "id": 102,
+      "driverName": "Suresh Reddy",
       "firstName": "Suresh",
       "lastName": "Reddy",
-      "driverName": "Suresh Reddy",
       "phone": "8765432109",
       "email": "suresh.r@example.com",
       "vehicleType": "SUV",
       "regNumber": "TS 08 UB 5678",
       "city": "Hyderabad",
       "status": "verified",
-      "submittedAt": "2023-10-22",
       "rideHistory": []
+    },
+    {
+      "id": 103,
+      "driverName": "Mallesh Yadav",
+      "firstName": "Mallesh",
+      "lastName": "Yadav",
+      "phone": "9988776655",
+      "email": "mallesh.y@example.com",
+      "vehicleType": "Auto",
+      "regNumber": "TS 10 AB 9012",
+      "city": "Secunderabad",
+      "status": "verified",
+      "rideHistory": [
+        {
+          "time": "09:00 AM",
+          "bookingId": "BK-2023-045",
+          "customer": "Anita Roy",
+          "pickup": "Begumpet",
+          "droppedLocation": "Ameerpet",
+          "timeTaken": "20 mins",
+          "distance": "5 km",
+          "fare": "₹120"
+        }
+      ]
     },
     {
       "id": 901,
       "firstName": "Vikram",
       "lastName": "Singh",
       "driverName": "Vikram Singh",
+      "email": "vikram.singh@example.com",
       "phone": "9988770011",
-      "email": "vikram.s@example.com",
+      "gender": "Male",
+      "city": "Hyderabad",
+      "district": "Ranga Reddy",
+      "state": "Telangana",
+      "pinCode": "500032",
+      "houseNo": "12-3/4",
+      "street": "Gachibowli Main Rd",
+      "status": "pending",
+      "submittedAt": "2023-10-26",
       "vehicleType": "Bike",
       "regNumber": "TS 07 GP 9988",
-      "city": "Hyderabad",
-      "status": "pending",
-      "submittedAt": "2023-10-26"
+      "selfie": "https://randomuser.me/api/portraits/men/32.jpg",
+      "vehicleImage": "https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=500&q=60",
+      "dlFront": "https://upload.wikimedia.org/wikipedia/commons/9/9b/Driving_license_India_smart_card.png",
+      "dlBack": "https://upload.wikimedia.org/wikipedia/commons/9/9b/Driving_license_India_smart_card.png",
+      "aadharFront": "https://assets.telegraphindia.com/telegraph/2022/Aug/1660990397_new-project.jpg",
+      "aadharBack": "https://assets.telegraphindia.com/telegraph/2022/Aug/1660990397_new-project.jpg",
+      "panFront": "https://enterslice.com/learning/wp-content/uploads/2018/06/PAN-Card-Correction.jpg",
+      "panBack": "https://enterslice.com/learning/wp-content/uploads/2018/06/PAN-Card-Correction.jpg"
     },
     {
       "id": 902,
       "firstName": "Anjali",
       "lastName": "Devi",
       "driverName": "Anjali Devi",
-      "phone": "7766554433",
       "email": "anjali.d@example.com",
+      "phone": "7766554433",
+      "gender": "Female",
+      "city": "Secunderabad",
+      "district": "Hyderabad",
+      "state": "Telangana",
+      "pinCode": "500003",
+      "houseNo": "45-A",
+      "street": "MG Road",
+      "status": "pending",
+      "submittedAt": "2023-10-27",
       "vehicleType": "Auto",
       "regNumber": "TS 10 AB 1122",
-      "city": "Secunderabad",
-      "status": "pending",
-      "submittedAt": "2023-10-27"
+      "selfie": "https://randomuser.me/api/portraits/women/44.jpg",
+      "vehicleImage": "https://images.unsplash.com/photo-1532509854226-a2d9d8e66f8e?auto=format&fit=crop&w=500&q=60",
+      "dlFront": "https://upload.wikimedia.org/wikipedia/commons/9/9b/Driving_license_India_smart_card.png",
+      "dlBack": "https://upload.wikimedia.org/wikipedia/commons/9/9b/Driving_license_India_smart_card.png",
+      "aadharFront": "https://assets.telegraphindia.com/telegraph/2022/Aug/1660990397_new-project.jpg",
+      "aadharBack": "https://assets.telegraphindia.com/telegraph/2022/Aug/1660990397_new-project.jpg",
+      "panFront": "https://enterslice.com/learning/wp-content/uploads/2018/06/PAN-Card-Correction.jpg",
+      "panBack": "https://enterslice.com/learning/wp-content/uploads/2018/06/PAN-Card-Correction.jpg"
     }
   ],
   "consumers": [
@@ -103,9 +164,165 @@
       "lastName": "Sharma",
       "mobile": "9123456780",
       "email": "priya.s@example.com",
-      "status": "Active"
+      "gender": "Female",
+      "dob": "1995-08-15",
+      "status": "Active",
+      "rideHistory": [
+        {
+          "time": "Yesterday, 6:00 PM",
+          "bookingId": "BK-99887",
+          "lastDriver": "Ramesh Kumar",
+          "pickup": "Office, Madhapur",
+          "droppedLocation": "Home, Kondapur",
+          "timeTaken": "25 mins",
+          "distance": "4.5 km",
+          "payment": "UPI - ₹150"
+        },
+        {
+          "time": "2 days ago, 9:00 AM",
+          "bookingId": "BK-99801",
+          "lastDriver": "Mallesh Yadav",
+          "pickup": "Home, Kondapur",
+          "droppedLocation": "Office, Madhapur",
+          "timeTaken": "30 mins",
+          "distance": "4.5 km",
+          "payment": "Cash - ₹150"
+        }
+      ]
+    },
+    {
+      "id": "C-1002",
+      "firstName": "Rahul",
+      "lastName": "Verma",
+      "mobile": "9988001122",
+      "email": "rahul.v@example.com",
+      "gender": "Male",
+      "dob": "1990-01-20",
+      "status": "Active",
+      "rideHistory": []
+    },
+    {
+      "id": "C-1003",
+      "firstName": "Sneha",
+      "lastName": "Gupta",
+      "mobile": "7766554433",
+      "email": "sneha.g@example.com",
+      "gender": "Female",
+      "dob": "1998-11-05",
+      "status": "Active",
+      "rideHistory": [
+        {
+          "time": "Today, 11:30 AM",
+          "bookingId": "BK-10045",
+          "lastDriver": "Suresh Reddy",
+          "pickup": "Forum Mall",
+          "droppedLocation": "Inorbit Mall",
+          "timeTaken": "15 mins",
+          "distance": "3 km",
+          "payment": "Card - ₹100"
+        }
+      ]
     }
   ],
-  "pricingModels": [],
-  "promotions": []
+  "pricingModels": [
+    {
+      "id": "P-001",
+      "type": "flat",
+      "vehicle": "Auto",
+      "region": "Hyderabad - Core",
+      "config": {
+        "basePrice": 30,
+        "pricePerKm": 15,
+        "pricePerMin": 2
+      }
+    },
+    {
+      "id": "P-002",
+      "type": "slab",
+      "vehicle": "Bike",
+      "region": "All Regions",
+      "config": {
+        "slabs": [
+          { "min": 0, "max": 5, "price": 10 },
+          { "min": 5, "max": 15, "price": 8 },
+          { "min": 15, "max": 100, "price": 6 }
+        ]
+      }
+    },
+    {
+      "id": "P-003",
+      "type": "dynamic",
+      "vehicle": "Car",
+      "region": "Hitech City",
+      "config": {
+        "multiplier": 1.5,
+        "surchargeTime": "peak",
+        "startTime": "17:00",
+        "endTime": "21:00"
+      }
+    },
+    {
+      "id": "P-004",
+      "type": "day",
+      "vehicle": "SUV",
+      "region": "Airport Zone",
+      "config": {
+        "days": ["Saturday", "Sunday"],
+        "surchargeAmount": 150,
+        "multiplier": 1.2,
+        "startDate": "2024-01-01",
+        "endDate": "2024-12-31"
+      }
+    }
+  ],
+  "promotions": [
+    {
+      "id": "PROMO-01",
+      "code": "WELCOME50",
+      "title": "New User Discount",
+      "description": "Flat 50% off on your first ride",
+      "type": "percentage",
+      "value": 50,
+      "maxDiscount": 100,
+      "minOrderValue": 0,
+      "vehicleType": "All",
+      "usageLimit": 1000,
+      "usageCount": 450,
+      "startDate": "2023-10-01",
+      "endDate": "2024-10-01",
+      "status": "Active"
+    },
+    {
+      "id": "PROMO-02",
+      "code": "RAINY20",
+      "title": "Monsoon Special",
+      "description": "Get ₹20 off on Auto rides during rain",
+      "type": "flat",
+      "value": 20,
+      "maxDiscount": 0,
+      "minOrderValue": 100,
+      "vehicleType": "Auto",
+      "usageLimit": 500,
+      "usageCount": 500,
+      "startDate": "2023-07-01",
+      "endDate": "2023-09-30",
+      "status": "Inactive"
+    },
+    {
+      "id": "PROMO-03",
+      "code": "FESTIVE100",
+      "title": "Diwali Bonanza",
+      "description": "Flat ₹100 off on Premier rides",
+      "type": "flat",
+      "value": 100,
+      "maxDiscount": 0,
+      "minOrderValue": 300,
+      "vehicleType": "Car",
+      "usageLimit": 200,
+      "usageCount": 45,
+      "startDate": "2023-11-01",
+      "endDate": "2023-11-15",
+      "status": "Active"
+    }
+  ]
 }
