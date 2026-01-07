@@ -1,4 +1,45 @@
 {
+  "dashboardStats": {
+    "todayMetrics": {
+      "totalRidesToday": 642,
+      "revenueToday": 48250.50,
+      "activeDrivers": 850,
+      "preActiveDrivers": 120,
+      "inactiveDrivers": 300,
+      "totalDrivers": 1270,
+      "vehiclesOnRoad": 750,
+      "consumers": 12400,
+      "tripsCompleted": 1100,
+      "tripsCancelled": 45,
+      "revenueYesterday": 92500
+    },
+    "vehicleTypes": [
+      { "name": "Auto", "emoji": "🛺", "value": 450 },
+      { "name": "Bike", "emoji": "🏍️", "value": 320 },
+      { "name": "Mini", "emoji": "🚗", "value": 180 },
+      { "name": "Prime", "emoji": "🚘", "value": 95 },
+      { "name": "EV Car", "emoji": "🔋🚙", "value": 60 },
+      { "name": "EV Bike", "emoji": "🔋🏍️", "value": 110 }
+    ],
+    "revenueLast4Months": [
+      { "month": "Aug", "revenue": 35000 },
+      { "month": "Sep", "revenue": 55000 },
+      { "month": "Oct", "revenue": 48000 },
+      { "month": "Nov", "revenue": 72000 }
+    ],
+    "revenueLast10Days": [
+      { "date": "10-25", "revenue": 5400, "rides": 120 },
+      { "date": "10-26", "revenue": 6200, "rides": 145 },
+      { "date": "10-27", "revenue": 4800, "rides": 110 },
+      { "date": "10-28", "revenue": 7100, "rides": 160 },
+      { "date": "10-29", "revenue": 6900, "rides": 155 },
+      { "date": "10-30", "revenue": 8200, "rides": 190 },
+      { "date": "10-31", "revenue": 9100, "rides": 210 },
+      { "date": "11-01", "revenue": 8500, "rides": 195 },
+      { "date": "11-02", "revenue": 7800, "rides": 180 },
+      { "date": "11-03", "revenue": 6500, "rides": 150 }
+    ]
+  },
   "drivers": [
     {
       "id": 101,
@@ -11,7 +52,8 @@
       "regNumber": "TS 09 UA 1234",
       "city": "Hyderabad",
       "status": "verified",
-      "submittedAt": "2023-10-20"
+      "submittedAt": "2023-10-20",
+      "rideHistory": []
     },
     {
       "id": 102,
@@ -24,7 +66,8 @@
       "regNumber": "TS 08 UB 5678",
       "city": "Hyderabad",
       "status": "verified",
-      "submittedAt": "2023-10-22"
+      "submittedAt": "2023-10-22",
+      "rideHistory": []
     },
     {
       "id": 901,
@@ -52,5 +95,17 @@
       "status": "pending",
       "submittedAt": "2023-10-27"
     }
-  ]
+  ],
+  "consumers": [
+    {
+      "id": "C-1001",
+      "firstName": "Priya",
+      "lastName": "Sharma",
+      "mobile": "9123456780",
+      "email": "priya.s@example.com",
+      "status": "Active"
+    }
+  ],
+  "pricingModels": [],
+  "promotions": []
 }
