@@ -2,7 +2,7 @@
   "dashboardStats": {
     "todayMetrics": {
       "totalRidesToday": 642,
-      "revenueToday": 48250.50,
+      "revenueToday": 48250,
       "activeDrivers": 850,
       "preActiveDrivers": 120,
       "inactiveDrivers": 300,
@@ -11,7 +11,9 @@
       "consumers": 12400,
       "tripsCompleted": 1100,
       "tripsCancelled": 45,
-      "revenueYesterday": 92500
+      "revenueYesterday": 92500,
+      "dontdisplay": 0000
+      
     },
     "vehicleTypes": [
       { "name": "Auto", "emoji": "🛺", "value": 450 },
